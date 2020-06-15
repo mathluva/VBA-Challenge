@@ -4,8 +4,6 @@ Sub VBAChallenge()
 
     Dim i, x, j, k, l, m, lastrow, count As Long
     
-    Dim y As Variant
-    
     Dim openvalue, closevalue, volumetotal, opencounter, percentmax, percentmin, volumemax As Double
 
     Dim name As String
