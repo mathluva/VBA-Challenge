@@ -23,8 +23,6 @@ Sub VBAChallenge()
               lastrow = Cells(Rows.count, 1).End(xlUp).Row
         
     For i = 2 To lastrow
-    
-        For y = 2 To mainworkbook.Sheets.count
         
         If Cells(i, 1).Value <> Cells(i + 1, 1).Value Then
                 
@@ -81,8 +79,7 @@ Sub VBAChallenge()
                 volumetotal = volumetotal + Cells(i, 7).Value
         
     End If
-              
-                 
+                
         Next i
         
         ' Column Headers
